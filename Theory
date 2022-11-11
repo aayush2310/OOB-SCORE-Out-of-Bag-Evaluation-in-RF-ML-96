@@ -1,0 +1,4 @@
+In the training of RF if I use sampling with replacement then,a row can be seleted multiple times and a row might not get selected any number of times.
+
+There can be a row which are never selected to go into any decision trees those are called oob sample.Those rows can be used for model testing.statistically 37% rows are
+oob samples.They can be used as validation set.
